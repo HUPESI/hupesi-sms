@@ -1,0 +1,23 @@
+{
+  "name": "HUPESI/HUPESI-SMS",
+  "description": "HUPESI SMS API is build for HUPESI SMS - A Bulk SMS Web App",
+  "type": "library",
+  "license": "MIT",
+  "version": "2.7.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "HUPESI",
+      "email": "admin@sms.hupesi.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*"
+  }
+}
