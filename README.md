@@ -21,7 +21,7 @@ Via Composer
 composer require hupesi/hupesi-sms
 ```
 
-And Via Bash
+And Via SHH / Bash
 
 ```
 git clone https://github.com/hupesi/hupesi-sms.git
