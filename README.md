@@ -1,6 +1,3 @@
-
-[![Latest Stable Version](https://poser.pugx.org/hupesi/hupesi-sms/v/stable)](https://packagist.org/packages/hupesi/hupesi-smsformat=flat-square)
-[![License](https://poser.pugx.org/hupesi/hupesi-sms/license)](https://packagist.org/packages/hupesi/hupesi-sms?format=flat-square)
 [![GitHub issues](https://img.shields.io/github/issues/hupesi/hupesi-sms.svg?style=flat-square)](https://github.com/hupesi/hupesi-sms/issues)
 [![GitHub stars](https://img.shields.io/github/stars/hupesi/hupesi-sms.svg?style=flat-square)](https://github.com/hupesi/hupesi-sms/stargazers)
 
@@ -11,10 +8,10 @@ HUPESI SMS API is build for HUPESI SMS - A Bulk SMS Web App
 
 ### Prerequisites
 
-To run HUPESI SMS API you have to install HUPESI SMS Application on your server.
+To run HUPESI SMS API you have to install HUPESI SMS Application Files on your server.
 For more details please visit: [HUPESI SMS](https://sms.hupesi.com/)
 ```
-php >=5.6
+php >=7.0
 HUPESI SMS - Bulk SMS Web App
 ```
 
@@ -45,7 +42,7 @@ require 'vendor/autoload.php';
 use HUPESISMS\HUPESISMSAPI;
 ```
 ### Step 2:
-set your API_KEY from `https://yourweburl.com/sms-api/info` (your application install url)
+set your API_KEY from `https://sms.hupesi.com/sms-api/info` (your application install url)
 ```php
 $api_key = 'qwertyuiop1234567890=';
 ```
@@ -69,7 +66,7 @@ You can insert maximum 100 numbers using comma in single api request.
 You have to must include Country code at beginning of the phone number.  
 
 ### Step 5:
-Replace your Install URL like `https://yourweburl.com/sms/api` with `https://sms.hupesi.com/`
+Replace your Install URL like `https://sms.hupesi.com/sms/api` with `https://sms.hupesi.com/`
 `sms/api` is mandatory on your install url
 
 ```php
@@ -178,7 +175,7 @@ HUPESI SMS API return response with `json` format, like:
 {"code":"ok","message":"Successfully Send"}
 ```
 
-## Status Code
+## Status Code Replies
 
 | Status | Message |
 | --- | --- |
@@ -198,4 +195,4 @@ HUPESI SMS API return response with `json` format, like:
 
 ## Authors
 
-* **Abul Kashem Shamim** - *Initial work* - [akasham67](https://github.com/akasham67)
+* **HUPESI ©2020** - *WEBSITE* - [HUPESI](https://hupesi.com)
